@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      body{
+        background-color: blue;
+      }
+      #l1{
+      background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="./thankyou.html" method="GET">
+      <input type="text" placeholder="First Name"><br><br>
+      <input type="text" placeholder="Last Name"><br><br>
+      <input type="email" placeholder="Email"><br><br>
+      <input type="password" placeholder="Password"><br><br>
+      <label><b>Select Gender</b></label><br>
+      <p>Male<input type="radio" name="gender" id=""></p>
+      <p>Female<input type="radio" name="gender" id=""></p>
+      <p>other<input type="radio" name="gender" id=""></p>
+
+      <label for="country">Country:</label>
+
+<select name="country" id="country">
+  <option value="India">india</option>
+  <option value=""></option>
+  <option value=""></option>
+  <option value=""></option>
+</select><br><br>
+<p>Write about yourself below</p>
+<textarea name="Type here" placeholder="type here" id="l1" cols="30" rows="10"></textarea>
+
+
+      <br><br>
+     
+    <input type="submit" value="submit">
+    </form>
+  </body>
+</html>

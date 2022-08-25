@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.semiCircle {
+  height: 300px;
+  width: 300px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-top: 40px solid #e34133;
+  border-bottom: 40px solid #e34133;
+  border-left: 40px solid #e34133;
+  border-right: 40px solid transparent;
+  position: relative;
+}
+
+.horizontalLIne {
+  width: 120px;
+  height: 160px;
+  position: absolute;
+
+  border-bottom-right-radius: 120px;
+
+  right: -3px;
+  bottom: -60px;
+
+  border-top: 40px solid #4081ec;
+  border-right: 40px solid #4081ec;
+  border-bottom: 40px solid transparent;
+
+  transform: rotate(19deg);
+}
+.container {
+  transform: rotate(-19deg);
+}
+
+.yellow {
+  height: 100%;
+  border-radius: 100%;
+  width: 100%;
+  border-left: 40px solid #f3b605;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: absolute;
+
+  z-index: 4;
+  top: 0;
+}
+
+.green {
+  height: 100%;
+  border-radius: 100%;
+  width: 100%;
+  border-left: 40px solid transparent;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid green;
+  border-right: 40px solid transparent;
+  position: absolute;
+  transform: rotate(30deg);
+  z-index: 7;
+  top: 0;
+}
+
+.blue {
+  height: 100%;
+  border-radius: 100%;
+  width: 100%;
+  border-left: 40px solid transparent;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid #4081ec;
+  border-right: 40px solid transparent;
+  position: absolute;
+  transform: rotat(-40deg);
+  z-index: 2;
+  top: 0;
+} 
+
